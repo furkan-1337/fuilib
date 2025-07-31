@@ -4,7 +4,7 @@ namespace Fuilib.Windows.Effects;
 
 public class RoundedCorners
 {
-    public static void Apply(UIWindow window)
+    public static void Apply(FUIWindow window)
     {
         if (Environment.OSVersion.Version.Build >= 22000)
         {
